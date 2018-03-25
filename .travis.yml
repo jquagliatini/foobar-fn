@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "9.9.0"
+cache: yarn
+script:
+  - npm run coveralls
+  - npm run integration
